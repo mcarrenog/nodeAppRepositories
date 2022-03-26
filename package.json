@@ -1,0 +1,51 @@
+{
+  "name": "nodeapprepositories",
+  "version": "1.0.0",
+  "description": "Repositorios utilizados por nodeApp",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "compile": "npm run tslint && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcarrenog/nodeAppRepositories.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mcarrenog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcarrenog/nodeAppRepositories/issues"
+  },
+  "homepage": "https://github.com/mcarrenog/nodeAppRepositories#readme",
+  "peerDependencies": {
+    "nodeappmodel": "file:./localDependencies/nodeappmodel-1.0.0.tgz",
+    "nodeapputils": "file:./localDependencies/nodeapputils-1.0.0.tgz",
+    "mongodb": "^3.7.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.38",
+    "redis": "^4.0.1",
+
+    "ts-node": "^9.1.1",
+    "tslib": "^2.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@types/node": "^16.10.3",
+    "nodeappmodel": "file:./localDependencies/nodeappmodel-1.0.0.tgz",
+    "nodeapputils": "file:./localDependencies/nodeapputils-1.0.0.tgz",
+    "mongodb": "^3.7.2",
+    "redis": "^4.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "eslint": "^8.5.0",
+    "typeorm": "^0.2.38",
+    "typescript": "^4.4.3",
+    "json-refs": "^3.0.15"
+  }
+}
